@@ -124,9 +124,9 @@ while True:
         
         print(clients)
 	#print(len(clients))
-	#f = open("log.txt", "a")
-	#f.write(str(clients)+"\n")
-	#f.close()
+	f = open("log.txt", "a")
+	f.write(str(data)+"\n")
+	f.close()
 
       except ValueError:
 
